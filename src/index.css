@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    background-image: url(./Components/blue-sky-background-with-tiny-clouds_36078-413.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    position: relative;
+}
+
+
+.App{
+        margin: 100px auto;
+        width:fit-content;
+}
+
+.form{
+        padding: 30px;
+        width: fit-content;
+}
+.form,
+.Weahter_list{
+    padding: 30px;
+    background-color: rgba(240, 248, 255, 0.786);
+    border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+.form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.form label{
+    padding-right:10px;
+}
+.form input,
+.form select,
+.form button{
+    border:none;
+    outline:none;
+    padding:10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        background-color: rgb(152, 203, 247);
+}
+
+.form input,
+.form select{
+    width:300px;
+}
+.form button{
+    background-color:green ;
+    color:white;
+    width:100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: rgb(3, 162, 3);
+}
+
+.Weahter_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 220px;
+    flex-wrap: wrap;
+}
+
+.Weahter_list div{
+    padding:8px;
+    font-size: 16px;
+}
+
+
