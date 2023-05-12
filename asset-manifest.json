@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Weather-APP/static/css/main.d08c4514.css",
+    "main.js": "/Weather-APP/static/js/main.f63aca1a.js",
+    "static/js/787.066e7e5e.chunk.js": "/Weather-APP/static/js/787.066e7e5e.chunk.js",
+    "static/media/blue-sky-background-with-tiny-clouds_36078-413.avif": "/Weather-APP/static/media/blue-sky-background-with-tiny-clouds_36078-413.880d22d98f44b26ee9c6.avif",
+    "index.html": "/Weather-APP/index.html",
+    "main.d08c4514.css.map": "/Weather-APP/static/css/main.d08c4514.css.map",
+    "main.f63aca1a.js.map": "/Weather-APP/static/js/main.f63aca1a.js.map",
+    "787.066e7e5e.chunk.js.map": "/Weather-APP/static/js/787.066e7e5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d08c4514.css",
+    "static/js/main.f63aca1a.js"
+  ]
+}
